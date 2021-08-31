@@ -2,16 +2,30 @@
 
 ---
 ## Overview of Surfs Up Challenge Analysis
-After completing the initial requested analysis with Bobby using SQL and CSV files a new request was issued.   This request was to do a deep dive of the Pewlette-Hackard employees to identify the number of potentially retiring employees by title and those that would be eligible for a mentorship program to help avoid any employee shortages.
+The initial request was to evaluate a surf n' shake shop opportunity with another investor.   He had previously invested in such a property which was rained out of existence.   A data set was provided by W. Avy to help with the analysis of weather patterns on the island.   After completing the additional analysis another request came in for further investigation.   Additional analsis was requested specifically for the months of June and December in Oahu to determine if the business model is a good year round investment.
 
 ## Surfs Up Challenge Analysis Results
 
 ### Key Differences
-<img width="168" alt="Retirements by Title_Count" src="https://user-images.githubusercontent.com/84201082/129761552-3de01efe-9a1b-482c-8b09-9fe54495c9da.png">-
+___
+#### June Temp Stats
+<img width="140" alt="June_Temp_Stats" src="https://user-images.githubusercontent.com/84201082/131425068-8332c036-0bd9-4aa7-83d3-7bca82dfbd7a.png">
 
-- The above analysis shows the total count of employees who fall into the retirement criteria given.   
-- Approximately 90,000 current employees fit the criteria for retirement out of the total employee pool of approximately 300,000 employees.
-- The hardest hit employee level is at the "Senior" level with almost 60,000 employees which accounts for almost 66% of the total potential retirees.
+#### December Temp Stats
+<img width="176" alt="December_temp_stats" src="https://user-images.githubusercontent.com/84201082/131425082-6f7a0dfb-4a21-4c9c-9293-4b9c36ddf418.png">
+
+- The main three differences between the analysis of June vs. Decembver are as follows:   
+- Overall both data sets are very large totaling between 1700 and 1517 data points respectivley
+- Both data sets showed a temp mean of over 70 degrees however the June temperatures were warmer by about 3 degrees
+- The minimum temp was lower in December (not suprisingly" by 9 degrees
+- However the maximum temp for the time periods were only different by 2 degrees  showing 85 vs. 83 respectiveley 
+- Although there is a slight difference in smple size I do not beleive it is enough to sway the data in either instance analyzed
 
 ## Surfs Up Analysis Summary & Additional Queries 
-Based on the analysis the Pewlett-Hackard initiative was absolutley needed if the given age retirement metrics ring true.   I would recommend a company wide survey to determine when the Senior employees are planning on retiring and if there are potential short term monetary incentives to smooth the rate at which they retire.   
+### June Precipitation
+<img width="180" alt="June Precip" src="https://user-images.githubusercontent.com/84201082/131426031-38853046-0ffa-4416-b9a6-35e5278ee41f.png">
+
+### December Precipitation
+<img width="219" alt="Dec Precip" src="https://user-images.githubusercontent.com/84201082/131426083-5aedc2d0-dc9e-43a3-bbae-b83201665d38.png">
+
+Based on the analysis completed the temperature should not play a major role in the success of the business venture in Oahu.   Looking at the precipitation amounts done in the additional queries i would say that the business would slow down for two reasons in December.   Both have lower temperatures overall and the average rainfall is also higher in the winter.   Those two combined would make for a slower season than in summer but makes sense when poeple would rather be both surfing and eating ice cream which lends both to hot weather.
